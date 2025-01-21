@@ -3,7 +3,7 @@ const ctnMovies = document.getElementById("ctn-movies")
 const registerMovie = document.getElementById("register-movie")
 
 const listMovies = async () => {
-    ctnMovies.innerHTML = "Cargando Datos........"
+   
     let movies = await getMovies()
     console.log(movies)
     movies.forEach(item => {
