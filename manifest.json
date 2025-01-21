@@ -1,0 +1,19 @@
+{
+    "name": "Mi Aplicación Web",
+    "short_name": "AppWeb",
+    "icons": [
+      {
+        "src": "images/icon.jpg",
+        "sizes": "192x192",
+        "type":"image/jpg"
+
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation":"portrait",
+    "categories": ["relationship"]
+   
+  }
